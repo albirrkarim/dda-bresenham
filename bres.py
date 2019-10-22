@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 import cv2
 
+
+import time
+start_time = time.time()
+
 # Titik Awal
 x1 = 1
 y1 = 7
@@ -90,6 +94,10 @@ for i in range(1,len):
 
     if((x>=x2) and (y>=y2) ):
         break
+
+end_time = time.time()
+delta_time = end_time-start_time
+print("Execution Time : ",delta_time," ms")
 
 
 # Draw point based on above x, y axis values.
