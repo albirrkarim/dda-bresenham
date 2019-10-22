@@ -1,14 +1,17 @@
 import matplotlib.pyplot as plt
 import cv2
 
+# Titik Awal
 x1 = 1
 y1 = 7
+
+# Titik Akhir
 x2 = 7
 y2 = 15
 
+# Perhitungan
 dy = y2-y1
 dx = x2-x1
-
 
 duaDX=2*dx
 duaDY=2*dy
@@ -84,7 +87,7 @@ for i in range(1,len):
 
     x_number_list.append(x)
     y_number_list.append(y)
-    # this.draw(x,y)
+
     if((x>=x2) and (y>=y2) ):
         break
 

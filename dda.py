@@ -1,11 +1,13 @@
 import matplotlib.pyplot as plt
 import cv2
 
-x1 = 10
-y1 = 70
+# Titik awal
+x1 = 1
+y1 = 7
 
-x2 = 70
-y2 = 150
+# Titik Akhir
+x2 = 7
+y2 = 15
 
 
 dy = y2-y1
@@ -49,7 +51,7 @@ for i in range(1,len):
     
 
 # Draw point based on above x, y axis values.
-plt.scatter(x_number_list, y_number_list, s=1)
+plt.scatter(x_number_list, y_number_list, s=10)
 
 # Set chart title.
 plt.title("Algoritma DDA")
