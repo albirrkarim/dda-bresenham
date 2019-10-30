@@ -17,6 +17,12 @@ y2 = 15
 dy = y2-y1
 dx = x2-x1
 
+#  Hitung Median 
+m = dy / dx
+
+dy=abs(dy)
+dx=abs(dx)
+
 duaDX=2*dx
 duaDY=2*dy
 
@@ -28,9 +34,6 @@ len=x2+y2
 
 x=x1
 y=y1
-
-#  Hitung Median 
-m = dy / dx
 
 if(m>=1):
     selisihDua=duaDX-duaDY
