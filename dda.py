@@ -57,6 +57,12 @@ end_time = time.time()
 delta_time = end_time-start_time
 print("Execution Time : ",delta_time," ms")
 
+from guppy import hpy
+
+h = hpy()
+
+print (h.heap())
+
 # Draw point based on above x, y axis values.
 plt.scatter(x_number_list, y_number_list, s=10)
 
